@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/One-to-One.iml" filepath="$PROJECT_DIR$/One-to-One.iml" />
+      <module fileurl="file://$PROJECT_DIR$/One-to-Many.iml" filepath="$PROJECT_DIR$/One-to-Many.iml" />
     </modules>
   </component>
 </project>

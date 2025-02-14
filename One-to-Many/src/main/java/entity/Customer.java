@@ -19,6 +19,6 @@ public class Customer {
     private int id;
     private String name;
 
-    @OneToMany
+    @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL)
     private List<Order> orders;
 }
