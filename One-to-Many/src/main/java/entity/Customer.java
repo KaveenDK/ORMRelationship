@@ -13,6 +13,8 @@ import java.util.List;
 @NoArgsConstructor
 @Entity
 @Table(name = "customer")
+
+//inverse side
 public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

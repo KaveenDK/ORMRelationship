@@ -10,6 +10,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity
 @Table(name = "orders")
+
+//owning side
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
